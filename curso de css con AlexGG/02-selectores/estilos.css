@@ -1,0 +1,51 @@
+/* selector universal */
+
+/* *{
+    letter-spacing: 10px;
+} */
+
+/* selector de tipo */
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    color: slateblue;
+    font-size: 20px;
+}
+
+/* selector de clase */
+
+.peliculas{
+    color: crimson;
+}
+
+.series{
+    font-size: 40px;
+}
+
+.favoritas{
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+.espaciado{
+    letter-spacing: 10px;
+}
+/* selector de ID */
+
+#spidermannowayhome{
+    font-size: 25px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+#temporada3{
+    color: seagreen ;
+    font-size: 14px;
+
+}
+
+
+

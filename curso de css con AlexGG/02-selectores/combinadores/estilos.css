@@ -1,0 +1,41 @@
+/* Combinador de descendientes */
+
+.listas .lista{
+    text-decoration: underline;
+}
+
+.todo .lista{
+    list-style: decimal;
+}
+
+.dias .lista{
+    list-style: none;
+}
+
+/* conbinador de hijos directos */
+
+.listas > .lista{
+    list-style: upper-roman;
+}
+
+.dias > .lista{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* conbinador de hermano hadyacente */
+
+/* .subtitulo + .parrafo{
+    background-color: yellow;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+} */
+
+/* Combinador de hermanos generales */
+
+.subtitulo ~ .parrafo{
+    background-color: tomato;
+}
+
